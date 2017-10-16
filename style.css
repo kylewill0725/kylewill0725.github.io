@@ -21,10 +21,13 @@ div.tab button.active {
     background-color: #ccc;
     display: inline;
 }
+
+/* Unhides selected table */
 table.selectable.active {
     display: inline;
 }
 
+/* Hides other table */
 table.selectable {
     display: none;
 }
