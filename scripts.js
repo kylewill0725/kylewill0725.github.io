@@ -1,7 +1,12 @@
 var domLock = false; //document.evaluate requires page to be static so all async modifications must respect the lock.
 
-var getElementsByXPath = function(element, xpath) {
-    return document.evaluate(xpath, element, null, XPathResult.ANY_TYPE, null)
+var getElementsByXPath = function (element, xpath) {
+    var snapshot = document.evaluate(xpath, element, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+    var list = []
+    for (var i = 0; i < snapshot.snapshotLength; i++) {
+        list.push(snapshot.snapshotItem(i));
+    }
+    return list;
 }
 
 var select = function (selector) {
@@ -15,18 +20,18 @@ var select = function (selector) {
     }
 }
 
-var getJSON = function (url, callback) {
+var getJSON = function (url, callback, args) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json');
-    xhr.setRequestHeader(String.fromCharCode(67,108,105,101,110,116,45,73,68), '8jpk1xckf9ozds2164tw6da3wcrtx2'); //Obfuscated the first argument so it can't be searched for using the searchbar.
+    xhr.setRequestHeader(String.fromCharCode(67, 108, 105, 101, 110, 116, 45, 73, 68), '8jpk1xckf9ozds2164tw6da3wcrtx2'); //Obfuscated the first argument so it can't be searched for using the searchbar.
     xhr.responseType = 'json';
     xhr.onload = function () {
         var status = xhr.status;
         if (status === 200) {
-            callback(null, xhr.response);
+            callback(null, xhr.response, args);
         } else {
-            callback(status, xhr.response);
+            callback(status, xhr.response, args);
         }
     };
     xhr.send();
@@ -498,20 +503,23 @@ var streamers = [
 
 //Update in game time
 var offset = 2460000;
-var dayLength = 1000*60*150; // milliseconds
-setInterval(function() {
+var dayLength = 1000 * 60 * 150; // milliseconds
+var clockStart = function () {
     var time = document.getElementById('time');
-    var dayMoon = Math.floor(((new Date() - offset) % (1000*60*150)) / 60000);
-    if (!domLock)
+    var dayMoon = Math.floor(((new Date() - offset) % (1000 * 60 * 150)) / 60000);
+    time.innerText = dayMoon < 100 ? (100 - dayMoon) + ' minutes left in the day.' : (150 - dayMoon) + ' minutes left in the night.';
+    setInterval(function () {
+        var time = document.getElementById('time');
+        var dayMoon = Math.floor(((new Date() - offset) % (1000 * 60 * 150)) / 60000);
         time.innerText = dayMoon < 100 ? (100 - dayMoon) + ' minutes left in the day.' : (150 - dayMoon) + ' minutes left in the night.';
-}, 30000);
+    }, 30000);
+}
 
-var watching = [];
 function generateTables() {
     var parentDiv = document.getElementById('content');
     var currentTable = document.getElementById('currentWatching');
     var previousTable = document.getElementById('previousWatching');
-    
+
     //Set previous list of streamers to current list.
     if (previousTable != null)
         previousTable.remove();
@@ -519,77 +527,76 @@ function generateTables() {
     parentDiv.appendChild(previousTable);
 
     //Update current streamers.
-    domLock = true;
-    var tableRowIterator = getElementsByXPath(currentTable, '/*/tr[td]')
-    for (var current = tableRowIterator.iterateNext(); current; current = tableRowIterator.iterateNext()) {
-        current.remove();
-    }
-    domLock = false;
+    getElementsByXPath(currentTable, '/html/body/div/div/table[@id="currentWatching"]/tbody/tr').forEach(function (item) {
+        item.remove();
+    });
+
+    var streamHandlerPromises = [];
     streamers.forEach(function (streamer) {
         var apiRequest = 'https://api.twitch.tv/kraken/streams/' + streamer.id;
-        setTimeout(function () {
-            getJSON(apiRequest, function (err, data) {
-                if (data['stream'] != null && data['stream']['game'] == 'Warframe') {
-                    var tr = document.createElement('tr'),
-                        twitchId = document.createElement('td'),
-                        twitchUrl = document.createElement('td'),
-                        link = document.createElement('a');
-                    link.setAttribute('href', 'https://www.twitch.tv/' + streamer.name);
-                    link.text = streamer.name;
-                    twitchId.innerHTML = streamer.id;
-                    tr.appendChild(twitchId);
-                    twitchUrl.appendChild(link);
-                    tr.appendChild(twitchUrl);
-                    currentTable.appendChild(tr);
+        streamHandlerPromises.push(new Promise(function (resolve, reject) {
+            setTimeout(function () {
+                getJSON(apiRequest, then, { 'streamer': streamer, 'resolve': resolve, 'reject': reject });
+            }, 2000); // 2 seconds per request to stay well withing api rate limits of 1 request per second.
+        }));
+    });
+    function then(err, data, params) {
+        //Handle twitch response;
+        if (data['stream'] != null && data['stream']['game'] == 'Warframe') {
+            var tbody = currentTable.getElementsByTagName('tbody')[0],
+                tr = document.createElement('tr'),
+                twitchId = document.createElement('td'),
+                twitchUrl = document.createElement('td'),
+                link = document.createElement('a');
+            link.setAttribute('href', 'https://www.twitch.tv/' + params.streamer.name);
+            link.text = params.streamer.name;
+            twitchId.innerHTML = params.streamer.id;
+            tr.appendChild(twitchId);
+            twitchUrl.appendChild(link);
+            tr.appendChild(twitchUrl);
+            tbody.appendChild(tr);
+        }
+        params.resolve();
+    }
+    //Execute then statement when all twitch streamers have been handled.
+    Promise.all(streamHandlerPromises).then(function () {
+        //Set add colors to streamers that have come online and streamers that went offline.
+        var currentRows = getElementsByXPath(currentTable, '/html/body/div/div/table[@id="currentWatching"]/tbody/tr');
+        var previousRows = getElementsByXPath(previousTable, '/html/body/div/div/table[@id="previousWatching"]/tbody/tr');;
+
+        for (var i = 0; i < previousRows.length; i++) {
+            var prevStreamerID = previousRows[i].children[0]['innerText'];
+            var found = false;
+            for (var j = 0; j < currentRows.length; j++) {
+                var currStreamerID = currentRows[j].children[0]['innerText'];
+                if (currStreamerID == prevStreamerID) {
+                    found = true;
+                    break;
                 }
-            });
-        }, 2000); // 2 seconds per request to stay well withing api rate limits of 1 request per second.
+            }
+            previousRows[i].className = previousRows[i].className.replace(' addedStream', '');
+            if (!found) {
+                previousRows[i].className += " removedStream";
+            } else {
+                previousRows[i].className = previousRows[i].className.replace(' addedStream', '')
+            }
+        }
+        for (var i = 0; i < currentRows.length; i++) {
+            var currStreamerID = currentRows[i].children[0]['innerText'];
+            var found = false;
+            for (var j = 0; j < previousRows.length; j++) {
+                var prevStreamerID = previousRows[j].children[0]['innerText'];
+                if (currStreamerID == prevStreamerID) {
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) {
+                currentRows[i].className += " addedStream";
+            }
+        }
     });
 }
 //Run generateTables() when html finishes loading.
 document.addEventListener('DOMContentLoaded', generateTables, false);
-
-function check() {
-    generateTables();
-    if (watching == null) { return; }
-    var temp, temp2, changes;
-    if (document.getElementById('check') != null) {
-        document.getElementById('check').innerHTML = '';
-    } else {
-        (temp = document.createElement('table')).id = 'check';
-        temp.setAttribute('cellpadding', '10');
-        document.body.appendChild(temp);
-    }
-    changes = document.getElementById('check');
-    streamers.forEach(function (v) {
-        var url = 'https://api.twitch.tv/kraken/streams/' + v.id;
-        setTimeout(function () {
-            getJSON(url, function (err, data) {
-                var indx = watching.indexOf(v.id);
-                if (data['stream'] == null && indx > -1) {
-                    watching.splice(indx, 1);
-                    temp = document.createElement('tr');
-                    (temp2 = document.createElement('td')).innerText = 'Remove';
-                    temp.appendChild(temp2);
-                    (temp2 = document.createElement('td')).innerHTML = '<a href=https://www.twitch.tv/' + v.name + '>' + v.name + '<\a>';
-                    temp.appendChild(temp2);
-                    (temp2 = document.createElement('td')).innerText = v.id;
-                    temp.appendChild(temp2);
-                    changes.appendChild(temp);
-                }
-                if (data['stream'] != null && indx == -1 && data['stream']['game'] == 'Warframe') {
-                    watching.push(v.id);
-                    temp = document.createElement('tr');
-                    (temp2 = document.createElement('td')).innerText = 'Add  ';
-                    temp.appendChild(temp2);
-                    (temp2 = document.createElement('td')).innerHTML = '<a href=https://www.twitch.tv/' + v.name + '>' + v.name + '<\a>';
-                    temp.appendChild(temp2);
-                    (temp2 = document.createElement('td')).innerText = v.id;
-                    temp.appendChild(temp2);
-                    changes.appendChild(temp);
-                }
-            });
-        }, 2000);
-    });
-}
-
+document.addEventListener('DOMContentLoaded', clockStart, false);

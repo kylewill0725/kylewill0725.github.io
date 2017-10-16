@@ -6,26 +6,35 @@
 </head>
 
 <body>
-    <p id='time'></p>
+    <p id="time"></p>
     <div>
         <div class="tab">
-            <button class='selectable current tab active' onclick="select('current')">Currently Watching</button>
-            <button class='selectable previous tab' onclick="select('previous')">Previously Watching</button>
+            <button class="selectable current tab active" onclick="select('current')">Currently Watching</button>
+            <button class="selectable previous tab" onclick="select('previous')">Previously Watching</button>
         </div>
         <div id="content" class="content">
-            <table class='selectable current active' id='currentWatching'>
-                <tr>
-                    <th>Streamer ID</th>
-                    <th>Url</th>
-                </tr>
+            <table class="selectable current active" id="currentWatching">
+                <thead>
+                    <tr>
+                        <th>Streamer ID</th>
+                        <th>Url</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
             </table>
-            <table class='selectable previous' id='previousWatching'>
-                <tr>
-                    <th>Streamer ID</th>
-                    <th>Url</th>
-                </tr>
+            <table class="selectable previous" id="previousWatching">
+                <thead>
+                    <tr>
+                        <th>Streamer ID</th>
+                        <th>Url</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
             </table>
         </div>
+        <button onclick="generateTables()">Update</button>
     </div>
 </body>
 
