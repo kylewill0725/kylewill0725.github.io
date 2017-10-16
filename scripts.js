@@ -5,9 +5,14 @@ var getElementsByXPath = function(element, xpath) {
 }
 
 var select = function (selector) {
-    var content = document.getElementById('content');
-    content.childNodes
-    element.style.display = 'inline';
+    var selectables = document.getElementsByClassName('selectable');
+    for (var i = 0; i < selectables.length; i++) {
+        if (selectables[i].className.includes(selector)) {
+            selectables[i].className += ' active';
+        } else {
+            selectables[i].className = selectables[i].className.replace(' active', '');
+        }
+    }
 }
 
 var getJSON = function (url, callback) {
@@ -499,7 +504,7 @@ setInterval(function() {
     var dayMoon = Math.floor(((new Date() - offset) % (1000*60*150)) / 60000);
     if (!domLock)
         time.innerText = dayMoon < 100 ? (100 - dayMoon) + ' minutes left in the day.' : (150 - dayMoon) + ' minutes left in the night.';
-}, 1000);
+}, 30000);
 
 var watching = [];
 function generateTables() {
@@ -510,8 +515,6 @@ function generateTables() {
     //Set previous list of streamers to current list.
     if (previousTable != null)
         previousTable.remove();
-    previousTable = document.createElement('table');
-    previousTable.id = 'previousWatching';
     previousTable.innerHTML = currentTable.innerHTML;
     parentDiv.appendChild(previousTable);
 

@@ -9,23 +9,17 @@
     <p id='time'></p>
     <div>
         <div class="tab">
-            <button class='tab active' id='current' onclick="select('current')">Currently Watching</button>
-            <button class='tab' id='previous' onclick="select('previous')">Previously Watching</button>
+            <button class='selectable current tab active' onclick="select('current')">Currently Watching</button>
+            <button class='selectable previous tab' onclick="select('previous')">Previously Watching</button>
         </div>
         <div id="content" class="content">
-            <table id='currentWatching'>
+            <table class='selectable current active' id='currentWatching'>
                 <tr>
                     <th>Streamer ID</th>
                     <th>Url</th>
                 </tr>
-                <tr>
-                    <td>123456</td>
-                    <td>
-                        <a href="https://www.twitch.tv/djtechlive">DjTechLive</a>
-                    </td>
-                </tr>
             </table>
-            <table id='previousWatching'>
+            <table class='selectable previous' id='previousWatching'>
                 <tr>
                     <th>Streamer ID</th>
                     <th>Url</th>
