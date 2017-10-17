@@ -502,7 +502,7 @@ var streamers = [
 ]
 
 //Update in game time
-var offset = 2460000;
+var offset = 1980000;
 var dayLength = 1000 * 60 * 150; // milliseconds
 var clockStart = function () {
     var time = document.getElementById('time');
@@ -547,6 +547,7 @@ function generateTables() {
                 tr = document.createElement('tr'),
                 twitchId = document.createElement('td'),
                 twitchUrl = document.createElement('td'),
+                twitchDescription = document.createElement('td'),
                 link = document.createElement('a');
             link.setAttribute('href', 'https://www.twitch.tv/' + params.streamer.name);
             link.text = params.streamer.name;
@@ -554,6 +555,8 @@ function generateTables() {
             tr.appendChild(twitchId);
             twitchUrl.appendChild(link);
             tr.appendChild(twitchUrl);
+            twitchDescription.innerText = data['stream']['channel']['status'];
+            tr.appendChild(twitchDescription);
             tbody.appendChild(tr);
         }
         params.resolve();
