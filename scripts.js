@@ -502,7 +502,6 @@ var streamers = [
 ]
 
 //Update in game time
-var finished = false;
 var offset = 1860000;
 var dayLength = 1000 * 60 * 150; // milliseconds
 var clockStart = function () {
