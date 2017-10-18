@@ -502,7 +502,8 @@ var streamers = [
 ]
 
 //Update in game time
-var offset = 1980000;
+var finished = false;
+var offset = 1860000;
 var dayLength = 1000 * 60 * 150; // milliseconds
 var clockStart = function () {
     var time = document.getElementById('time');
@@ -516,6 +517,7 @@ var clockStart = function () {
 }
 
 function generateTables() {
+    finished = false;
     var parentDiv = document.getElementById('content');
     var currentTable = document.getElementById('currentWatching');
     var previousTable = document.getElementById('previousWatching');
@@ -598,6 +600,7 @@ function generateTables() {
                 currentRows[i].className += " addedStream";
             }
         }
+        finished = true;
     });
 }
 //Run generateTables() when html finishes loading.
