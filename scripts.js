@@ -516,7 +516,7 @@ var clockStart = function () {
 }
 
 function generateTables() {
-    finished = "loading";
+    window.finished = "loading";
     var parentDiv = document.getElementById('content');
     var currentTable = document.getElementById('currentWatching');
     var previousTable = document.getElementById('previousWatching');
@@ -599,7 +599,7 @@ function generateTables() {
                 currentRows[i].className += " addedStream";
             }
         }
-        finished = "loaded";
+        window.finished = "loaded";
     });
 }
 //Run generateTables() when html finishes loading.
