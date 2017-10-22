@@ -22,8 +22,6 @@ This is for if you want your Warframe windows seperated from the rest of your ch
 
 # Running
 1. Open a new window. Use the custom shortcut if you did the isolated section.
-2. Click the extension icon in the upper right:
-
-![alt text](icon48.png)
+2. Go to [https://kylewill0725.github.io/blank.html?start](https://kylewill0725.github.io/blank.html?start) to start the script.
 
 3. When done, just close the window.
