@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta name="google-site-verification" content="U9NA2bbldjGnAinoRoOYZ8Y5MNxKJgSIsnnN0a-bRgw" />
+        <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/kbgedgpekhfjhfghbfmcloogpfkjdjin">
+    </head>
+    <body>
+        <h1 id="setup">Setup</h1>
+        <h2 id="basic">Basic</h2>
+        <button onclick="chrome.webstore.install()" id="install-button">Add to Chrome</button>
+        <script>
+        if (chrome.app.isInstalled) {
+          document.getElementById('install-button').style.display = 'none';
+        }
+        </script>
+        <ol>
+        <li>Install the extension.</li>
+        </ol>
+        <h2 id="isolated">Isolated</h2>
+        <p>This is for if you want your Warframe windows seperated from the rest of your chrome windows.</p>
+        <ol>
+        <li>Make a new shortcut to chrome on your desktop.</li>
+        </ol>
+        <p><img src="tut1.png" alt="alt text" /></p>
+        <ol>
+        <li>Open properties of shortcut.</li>
+        </ol>
+        <p><img src="tut2.png" alt="alt text" /></p>
+        <ol>
+        <li>Append <code>--profile-directory=AutoTwitch</code> to the Target text box.</li>
+        </ol>
+        <p><img src="tut3.png" alt="alt text" /></p>
+        <ol>
+        <li>Press apply.</li>
+        <li>Run the shortcut, open this page in the new window, and install the extension.</li>
+        </ol>
+        <h1 id="running">Running</h1>
+        <ol>
+        <li>Open a new window. Use the custom shortcut if you did the isolated section.</li>
+        <li>Click the extension icon in the upper right:</li>
+        </ol>
+        <p><img src="icon48.png" alt="alt text" /></p>
+        <ol>
+        <li>When done, just close the window.</li>
+        </ol>
+    </body>
+</html>

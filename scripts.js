@@ -502,17 +502,14 @@ var streamers = [
 ]
 
 //Update in game time
-var offset = 1860000;
-var dayLength = 1000 * 60 * 150; // milliseconds
+var offset = 11;
+var dayLength = 150; // milliseconds
 var clockStart = function () {
     var time = document.getElementById('time');
-    var dayMoon = Math.floor(((new Date() - offset) % (1000 * 60 * 150)) / 60000);
-    time.innerText = dayMoon < 100 ? (100 - dayMoon) + ' minutes left in the day.' : (150 - dayMoon) + ' minutes left in the night.';
-    setInterval(function () {
-        var time = document.getElementById('time');
-        var dayMoon = Math.floor(((new Date() - offset) % (1000 * 60 * 150)) / 60000);
-        time.innerText = dayMoon < 100 ? (100 - dayMoon) + ' minutes left in the day.' : (150 - dayMoon) + ' minutes left in the night.';
-    }, 30000);
+    var date = new Date();
+    var dayMoon = () => ((date.getHours()*60 + date.getMinutes() - offset) % (dayLength));
+    time.innerText = dayMoon() < 100 ? (100 - dayMoon()) + ' minutes left in the day.' : (150 - dayMoon()) + ' minutes left in the night.';
+    setInterval(clockStart, 1000);
 }
 
 function generateTables() {
