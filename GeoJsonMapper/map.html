@@ -1,0 +1,265 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+        crossorigin=""></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js" crossorigin=""></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="map.js"></script>
+</head>
+
+<body>
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        #mapid {
+            height: 100%;
+            padding: 15px;
+        }
+
+        .pinTooltip {
+            background: lightblue;
+        }
+
+        .areaTooltip {
+            background: gold;
+        }
+    </style>
+    <div id="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div id="mapid" style="cursor: crosshair"></div>
+            </div>
+            <div id="controls" class="col-auto">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Map Image</span>
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="mapload">
+                        <label class="custom-file-label" for="mapload">Choose file</label>
+                    </div>
+                </div>
+            <div class="form-group">
+                    <div id="settingsAccordion">
+                        <div class="card">
+                            <div class="card-header p-0" id="settingDrawerHeading">
+                                <h5 class="mb-0 p-2" data-toggle="collapse" data-target="#collapsesettings">
+                                    settings
+                                </h5>
+                            </div>
+                            <div id="collapsesettings" class="collapse show" aria-labelledby="settingDrawerHeading" data-parent="#settingsAccordion">
+                                <div class="card-body pt-0">
+                                    <div id="settingList" class="input-group d-flex flex-column">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div id="pinAccordion">
+                        <div class="card">
+                            <div class="card-header p-0" id="pinDrawerHeading">
+                                <h5 class="mb-0 p-2" data-toggle="collapse" data-target="#collapsePins">
+                                    Pins
+                                </h5>
+                            </div>
+                            <div id="collapsePins" class="collapse show" aria-labelledby="pinDrawerHeading" data-parent="#pinAccordion">
+                                <div class="card-body pt-0">
+                                    <div id="pinList" class="input-group d-flex flex-column">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div id="areasAccordion">
+                        <div class="card">
+                            <div class="card-header p-0" id="areasDrawerHeading">
+                                <h5 class="mb-0 p-2" data-toggle="collapse" data-target="#collapseAreas">
+                                    Areas
+                                </h5>
+                            </div>
+                            <div id="collapseAreas" class="collapse show" aria-labelledby="areasDrawerHeading"
+                                data-parent="#areasAccordion">
+                                <div class="card-body pt-0">
+                                    <div id="areaList" class="input-group d-flex flex-column">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="geojsonbutton" class="btn btn-block" onclick="copyGeoJson(this)" data-clipboard-text="#geojsontext">
+                    Copy GeoJson
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var clipboard = new ClipboardJS('#geojsonbutton');
+
+        clipboard.on('success', function (e) {
+            console.info('Action:', e.action);
+            console.info('Text:', e.text);
+            console.info('Trigger:', e.trigger);
+
+            e.clearSelection();
+        });
+
+
+        var map = new L.Map('mapid', {
+            crs: L.CRS.Simple,
+            minZoom: -1
+        });
+
+        var editableLayers = new L.FeatureGroup();
+        map.addLayer(editableLayers);
+
+        var options = {
+            position: 'topright',
+            draw: {
+                polyline: false,
+                polygon: {
+                    allowIntersection: true,
+                    shapeOptions: {
+                        color: '#bada55'
+                    }
+                },
+                circle: false,
+                rectangle: false,
+                marker: {
+                },
+                circlemarker: false
+            },
+            edit: {
+                featureGroup: editableLayers,
+                remove: true
+            }
+        };
+
+        var drawControl = new L.Control.Draw(options);
+        map.addControl(drawControl);
+
+        map.on(L.Draw.Event.CREATED, function (e) {
+            var type = e.layerType,
+                layer = e.layer,
+                feature = layer.feature = layer.feature || {};
+
+            feature.type = feature.type || "Feature";
+            var props = feature.properties = feature.properties || {};
+            props.type = type;
+            editableLayers.addLayer(layer);
+
+            if (type === 'polygon') {
+                props.name = `area${window.state.areas.length}`;
+                layer.bindTooltip(`${window.state.areas.length + 1}`, {
+                    permanent: true,
+                    direction: "center",
+                    className: "areaTooltip"
+                }).openTooltip();
+                createArea(layer);
+            }
+
+            if (type === 'marker') {
+                props.name = `pin${window.state.pins.length}`;
+                layer.bindTooltip(`${window.state.pins.length + 1}`, {
+                    permanent: true,
+                    direction: "center",
+                    className: "pinTooltip"
+                }).openTooltip();
+                createPin(layer);
+            }
+
+            addPropertyPopup(layer);
+        });
+
+        map.on(L.Draw.Event.DELETED, function (e) {
+            e.layers.eachLayer(l => {
+                switch (l.feature.properties.type) {
+                    case "marker":
+                        removePin(l);
+                        break;
+                    case "polygon":
+                        removeArea(l);
+                        break;
+                }
+            });
+        });
+
+        window.mapItem = map;
+
+        (function () {
+            var originalOnTouch = L.Draw.Polyline.prototype._onTouch;
+            L.Draw.Polyline.prototype._onTouch = function (e) {
+                if (e.originalEvent.pointerType != 'mouse') {
+                    return originalOnTouch.call(this, e);
+                }
+            }
+        })();
+
+        function addPropertyPopup(layer) {
+            var content = document.createElement("div");
+            content.style.display = "flex";
+            content.style.flexDirection = "column";
+            var label = document.createElement("label");
+            label.textContent = "Name:";
+            var textBox = document.createElement("textarea");
+            content.appendChild(label);
+            content.appendChild(textBox);
+
+            textBox.addEventListener("keyup", function () {
+                var oldName = layer.feature.properties.name;
+                layer.feature.properties.name = textBox.value;
+                if (layer.feature.properties.type == "polygon") {
+                    updateArea(oldName, layer);
+                } else if (layer.feature.properties.type == "marker") {
+                    updatePin(oldName, layer);
+                }
+            });
+            layer.on("popupopen", function () {
+                textBox.value = layer.feature.properties.name || "";
+                textBox.focus();
+            });
+            layer.on("popupclose", function () {
+            });
+            layer.bindPopup(content).openPopup();
+        }
+
+        var mapLoadElement = $("#mapload");
+        mapLoadElement.on('input', (a) => {
+            window.fileName = a.target.files[0].name;
+            var fReader = new FileReader();
+            fReader.onloadend = (b) => {
+                var img = new Image();
+                img.src = b.target.result;
+                img.onload = () => {
+                    loadMapImg(img);
+                };
+            };
+            fReader.readAsDataURL(a.target.files[0]);
+        });
+    </script>
+</body>
+
+</html>
