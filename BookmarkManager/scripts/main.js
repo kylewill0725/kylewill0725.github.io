@@ -152,7 +152,6 @@ function pushData(e) {
                 closeButton.onclick = deleteItem;
 
                 link.setAttribute("href", cursor.value.url);
-                link.setAttribute("target", "_blank");
 
                 /* checking if the user has entered a name for their bookmark
                 if it does, the name will appear on the list, instead */
