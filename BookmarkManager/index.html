@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font link below this line -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|PT+Mono|PT+Sans+Narrow" rel="stylesheet">
+
+    <!-- related docs -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/queries.css">
+    <link rel="shortcut icon" href="../assets/main/personal-logo.jpg" type="image/x-icon" item-height="32px">
+
+    <title> bookmarkdown — The vault of your links | foo-dogsquared </title>
+</head>
+
+<body>    <!-- overall container -->
+    <div id="motherContainer">
+        <a href="https://foo-dogsquared.github.io" target="_blank"><img class="personal_logo" src="./assets/images/personal_logo.svg" alt="My logo"></a>
+        <!-- the header, OBVIOUSLY! -->
+        <div id="header">
+            <div id="icon">
+                <span class="fa-layers fa-fw">
+                    <i class="far fa-bookmark fa-3x"></i>
+                    <i class="fas fa-arrow-down fa-2x" data-fa-transform="right-2"></i>
+                </span>
+            </div>
+            <label for="inputLink" class="title">bookmarkdown</label>
+            <p class="github-link">GitHub Link: <a href="https://github.com/foo-dogsquared/bookmarkdown" target="_blank" style="color:#b3411d">bookmarkdown</a></p>
+            <p class="program-desc">A program that stores your favorite places on the internet. No worries about tracking you, this is an offline
+                tool and the data are saved inside of your browser using IndexedDB (hopefully you're not infected by malwares, though).
+            </p>
+        </div>
+
+        <main id="mainContainer">
+            <!-- actual links container -->
+            <div id="main-linkContainer">
+                <input name="inputLink" id="inputLink" placeholder="URL" title="Put the URL here, make sure it is valid." type="text" tabindex="3">
+                <input name="inputName" id="inputName" class="nameLink" placeholder="Name (optional)" title="You can assign it a name instead of showing the URL." type="text" tabindex="3">
+                <button id="addLink">Add links</button>
+            </div>
+
+
+            <!-- links button container -->
+            <div id="main-buttonContainer">
+                <p id="status_space">&nbsp;</p>
+            </div>
+
+            <div id="savedLinks">
+                <ul id="list">
+                </ul>
+            </div>
+        </main>
+
+        <!-- obv, the footer -->
+        <footer id="footer">
+            Written and coded by Gabriel Arazas
+        </footer>
+    </div>
+
+    <!-- JavaScript source file-->
+    <script src="./scripts/main.js"> </script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+</body>
+
+</html>

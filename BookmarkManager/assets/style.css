@@ -1,0 +1,292 @@
+/* Parts of code came from  Chris Bracco
+*  I'm just trying to figure out how to properly place a
+*  footer to be on the bottom on the page no matter what
+*  the length of the content. So big thanks to him! */
+
+/* general variables */
+:root {
+    /* variable(s) for the button */
+    --buttonHover: #d8d8f6;
+
+    /* variables for the link input fields */
+    --inputFocus: #d9e8f7;
+
+    /* variables for the list background */
+    --list-odd: #8ed081;
+    --list-even: #b8d1b3;
+    --list-hover-odd: #85a3c1;
+    --list-hover-even: #91bae2;
+    --list-active: #60b54f;
+
+    /* default font family */
+    --fontFamily: 'PT Sans Narrow', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+    transition: font-size .2s;
+}
+
+.personal_logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    opacity: .4;
+
+    height: 50px;
+    width: 50px;
+
+    color: gray;
+    transition: .3s;
+    z-index: 2;
+
+}
+
+
+.personal_logo:hover {
+    opacity: 1;
+
+    color: gray;
+    transition: .3s;
+}
+
+a, a:visited {
+    box-sizing: inherit;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+#motherContainer {
+    min-height: 100%;
+    position: relative;
+}
+
+/*
+*
+*       HEADER
+*
+*/
+#header {
+    font-family: var(--fontFamily);
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1em 1em .2em 1em;
+    text-align: center;
+}
+
+#header label {
+    font-size: 2.5em;
+}
+
+#header .program-desc {
+    margin: .4em auto;
+    width: 70%;
+
+    font-size: 1.1em;
+}
+
+#header .github-link {
+    font-size: 1.1em;
+    width: 25%;
+    margin: 1em auto;
+}
+
+#header .github-link > a {
+    color: #b3411d;
+}
+
+@media screen and (max-width: 500px) {
+    #header .program-desc {
+        width: 100%;
+    }
+}
+
+#header .title {
+    text-transform: uppercase;
+}
+
+#icon {
+    margin: 1.2em;
+}
+
+/*
+*
+*       MAIN SECTION
+*
+*/
+#mainContainer {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: .5em 1em 2em;
+
+}
+
+
+/*
+*
+*       BUTTON STYLINGS
+*
+*/
+
+#main-linkContainer {
+    display: grid;
+    grid-gap: 8%;
+    grid-template-columns: repeat(1, 1fr 3fr 1fr);
+    grid-template-areas:
+        "url    url    url"
+        "name   name   name"
+        ".      add    ."
+    ;
+}
+
+#inputLink, 
+#inputName, 
+#addLink {
+    font-size: 1.2em;
+    border: solid 1px black;
+}
+
+#inputLink:focus,
+#inputName:focus {
+    background: var(--inputFocus);
+    border: solid 1px black;
+}
+
+#inputLink {
+    grid-area: url;
+
+    padding: .25em;
+}
+
+#inputName {
+    grid-area: name;
+
+    padding: .25em;
+}
+
+#addLink {
+    grid-area: add;
+
+    cursor: pointer;
+}
+
+#addLink:hover {
+    background: var(--buttonHover);
+}
+
+#status_space {
+    font-family: var(--fontFamily);
+    text-align: center;
+}
+
+/*
+*
+*       LINK CONTAINER
+*
+*/
+#mainContainer #savedLinks {
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    height: 350px;
+    min-height: 20%;
+    margin: 1em 0 3em;
+}
+
+
+@media screen and (max-height:600px) {
+    #mainContainer #savedLinks {
+        height: 250px;
+    }
+}
+
+@media screen and (max-height:500px) {
+    #mainContainer #savedLinks {
+        height: 150px;
+    }
+}
+
+#savedLinks ul {
+    margin: 0;
+
+    background: #efefef;
+}
+
+#savedLinks ul li {
+    display: flex;
+
+    align-content: center;
+    justify-content: space-between;
+}
+
+#savedLinks ul li:nth-child(odd),
+#savedLinks ul li:nth-child(even) {
+    box-sizing: content-box;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15em;
+    transition: .1s;
+}
+
+#savedLinks ul li:nth-child(odd) {
+    background: var(--list-odd);    
+}
+
+#savedLinks ul li:nth-child(odd):hover {
+    background: var(--list-hover-odd);
+    transition: .2s;
+}
+
+#savedLinks ul li:nth-child(even) {
+    background: var(--list-even);
+}
+
+#savedLinks ul li:nth-child(even):hover {
+    background: var(--list-hover-even);
+    transition: .2s;
+}
+
+#savedLinks ul li:active {
+    background: var(--list-active);
+    transition: .2s;
+}
+
+#savedLinks li > a {
+    padding: 1em;
+
+    width: 100%;
+}
+
+#savedLinks li > p.closeBtn {
+    padding: 0 2vh;
+}
+
+@media screen and (max-width: 700px) {
+    #savedLinks ul {
+        padding: 0;
+    }
+}
+
+/*
+*
+*       FOOTER
+*
+*/
+#footer {
+    background: #efefef;
+    bottom: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    left: 0;
+    padding: .5em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
