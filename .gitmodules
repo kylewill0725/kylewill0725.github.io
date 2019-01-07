@@ -1,0 +1,3 @@
+[submodule "GeoJsonMapper"]
+	path = GeoJsonMapper
+	url = https://github.com/kylewill0725/GeoJsonMapper.git
