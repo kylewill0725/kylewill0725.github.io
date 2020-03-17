@@ -2,7 +2,3 @@
 	path = GeoJsonMapper
 	url = https://github.com/kylewill0725/GeoJsonMapper.git
 	branch = master
-[submodule "SteamBrowserDashboard"]
-	path = SteamBrowserDashboard
-	url = git@github.com:kylewill0725/SteamBrowserDashboard.git
-	branch = master
