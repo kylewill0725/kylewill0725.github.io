@@ -1,0 +1,3050 @@
+{
+  "Characters": {
+    "Amber": {
+      "Name": "Amber",
+      "Vision": "Pyro",
+      "Weapon": "Bow",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Freedom\"",
+          "Guide to \"Freedom\"",
+          "Philosophies of \"Freedom\""
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ],
+        "BossMat": "Dvalin's Sigh"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Agnidus Agate Sliver",
+          "Agnidus Agate Fragment",
+          "Agnidus Agate Chunk",
+          "Agnidus Agate Gemstone",
+          "Everflame Seed"
+        ],
+        "LocalMat": "Small Lamp Grass",
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Barbara": {
+      "Name": "Barbara",
+      "Vision": "Hydro",
+      "Weapon": "Catalyst",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Freedom\"",
+          "Guide to \"Freedom\"",
+          "Philosophies of \"Freedom\""
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ],
+        "BossMat": "Ring of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Varunada Lazurite Sliver",
+          "Varunada Lazurite Fragment",
+          "Varunada Lazurite Chunk",
+          "Varunada Lazurite Gemstone",
+          "Cleansing Heart"
+        ],
+        "LocalMat": "Philanemo Mushroom",
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Beidou": {
+      "Name": "Beidou",
+      "Vision": "Electro",
+      "Weapon": "Claymore",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Gold\"",
+          "Guide to \"Gold\"",
+          "Philosophies of \"Gold\""
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ],
+        "BossMat": "Dvalin's Sigh"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Vajrada Amethyst Sliver",
+          "Vajrada Amethyst Fragment",
+          "Vajrada Amethyst Chunk",
+          "Vajrada Amethyst Gemstone",
+          "Lightning Prism"
+        ],
+        "LocalMat": "Noctilucous Jade",
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Bennett": {
+      "Name": "Bennett",
+      "Vision": "Pyro",
+      "Weapon": "Sword",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Resistance\"",
+          "Guide to \"Resistance\"",
+          "Philosophies of \"Resistance\""
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ],
+        "BossMat": "Dvalin's Plume"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Agnidus Agate Sliver",
+          "Agnidus Agate Fragment",
+          "Agnidus Agate Chunk",
+          "Agnidus Agate Gemstone",
+          "Everflame Seed"
+        ],
+        "LocalMat": "Windwheel Aster",
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Chongyun": {
+      "Name": "Chongyun",
+      "Vision": "Cryo",
+      "Weapon": "Claymore",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Diligence\"",
+          "Guide to \"Diligence\"",
+          "Philosophies of \"Diligence\""
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ],
+        "BossMat": "Dvalin's Sigh"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Shivada Jade Sliver",
+          "Shivada Jade Fragment",
+          "Shivada Jade Chunk",
+          "Shivada Jade Gemstone",
+          "Hoarfrost Core"
+        ],
+        "LocalMat": "Cor Lapis",
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Diluc": {
+      "Name": "Diluc",
+      "Vision": "Pyro",
+      "Weapon": "Claymore",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Resistance\"",
+          "Guide to \"Resistance\"",
+          "Philosophies of \"Resistance\""
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ],
+        "BossMat": "Dvalin's Plume"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Agnidus Agate Sliver",
+          "Agnidus Agate Fragment",
+          "Agnidus Agate Chunk",
+          "Agnidus Agate Gemstone",
+          "Everflame Seed"
+        ],
+        "LocalMat": "Small Lamp Grass",
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Diona": {
+      "Name": "Diona",
+      "Vision": "Cryo",
+      "Weapon": "Bow",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Freedom\"",
+          "Guide to \"Freedom\"",
+          "Philosophies of \"Freedom\""
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ],
+        "BossMat": "Shard of a Foul Legacy"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Shivada Jade Sliver",
+          "Shivada Jade Fragment",
+          "Shivada Jade Chunk",
+          "Shivada Jade Gemstone",
+          "Hoarfrost Core"
+        ],
+        "LocalMat": "Calla Lily",
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Fischl": {
+      "Name": "Fischl",
+      "Vision": "Electro",
+      "Weapon": "Bow",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Ballad\"",
+          "Guide to \"Ballad\"",
+          "Philosophies of \"Ballad\""
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ],
+        "BossMat": "Spirit Locket of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Vajrada Amethyst Sliver",
+          "Vajrada Amethyst Fragment",
+          "Vajrada Amethyst Chunk",
+          "Vajrada Amethyst Gemstone",
+          "Lightning Prism"
+        ],
+        "LocalMat": "Small Lamp Grass",
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Jean": {
+      "Name": "Jean",
+      "Vision": "Anemo",
+      "Weapon": "Sword",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Resistance\"",
+          "Guide to \"Resistance\"",
+          "Philosophies of \"Resistance\""
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ],
+        "BossMat": "Dvalin's Plume"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Vayuda Turquoise Sliver",
+          "Vayuda Turquoise Fragment",
+          "Vayuda Turquoise Chunk",
+          "Vayuda Turquoise Gemstone",
+          "Hurricane Seed"
+        ],
+        "LocalMat": "Dandelion Seed",
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Kaeya": {
+      "Name": "Kaeya",
+      "Vision": "Cryo",
+      "Weapon": "Sword",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Ballad\"",
+          "Guide to \"Ballad\"",
+          "Philosophies of \"Ballad\""
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ],
+        "BossMat": "Spirit Locket of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Shivada Jade Sliver",
+          "Shivada Jade Fragment",
+          "Shivada Jade Chunk",
+          "Shivada Jade Gemstone",
+          "Hoarfrost Core"
+        ],
+        "LocalMat": "Calla Lily",
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Keqing": {
+      "Name": "Keqing",
+      "Vision": "Electro",
+      "Weapon": "Sword",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Prosperity\"",
+          "Guide to \"Prosperity\"",
+          "Philosophies of \"Prosperity\""
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ],
+        "BossMat": "Ring of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Vajrada Amethyst Sliver",
+          "Vajrada Amethyst Fragment",
+          "Vajrada Amethyst Chunk",
+          "Vajrada Amethyst Gemstone",
+          "Lightning Prism"
+        ],
+        "LocalMat": "Cor Lapis",
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Klee": {
+      "Name": "Klee",
+      "Vision": "Pyro",
+      "Weapon": "Catalyst",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Freedom\"",
+          "Guide to \"Freedom\"",
+          "Philosophies of \"Freedom\""
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ],
+        "BossMat": "Ring of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Agnidus Agate Sliver",
+          "Agnidus Agate Fragment",
+          "Agnidus Agate Chunk",
+          "Agnidus Agate Gemstone",
+          "Everflame Seed"
+        ],
+        "LocalMat": "Philanemo Mushroom",
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Lisa": {
+      "Name": "Lisa",
+      "Vision": "Electro",
+      "Weapon": "Catalyst",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Ballad\"",
+          "Guide to \"Ballad\"",
+          "Philosophies of \"Ballad\""
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ],
+        "BossMat": "Dvalin's Claw"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Vajrada Amethyst Sliver",
+          "Vajrada Amethyst Fragment",
+          "Vajrada Amethyst Chunk",
+          "Vajrada Amethyst Gemstone",
+          "Lightning Prism"
+        ],
+        "LocalMat": "Valberry",
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Mona": {
+      "Name": "Mona",
+      "Vision": "Hydro",
+      "Weapon": "Catalyst",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Resistance\"",
+          "Guide to \"Resistance\"",
+          "Philosophies of \"Resistance\""
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ],
+        "BossMat": "Ring of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Varunada Lazurite Sliver",
+          "Varunada Lazurite Fragment",
+          "Varunada Lazurite Chunk",
+          "Varunada Lazurite Gemstone",
+          "Cleansing Heart"
+        ],
+        "LocalMat": "Philanemo Mushroom",
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Ningguang": {
+      "Name": "Ningguang",
+      "Vision": "Geo",
+      "Weapon": "Catalyst",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Prosperity\"",
+          "Guide to \"Prosperity\"",
+          "Philosophies of \"Prosperity\""
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ],
+        "BossMat": "Spirit Locket of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Prithiva Topaz Sliver",
+          "Prithiva Topaz Fragment",
+          "Prithiva Topaz Chunk",
+          "Prithiva Topaz Gemstone",
+          "Basalt Pillar"
+        ],
+        "LocalMat": "Glaze Lily",
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Noelle": {
+      "Name": "Noelle",
+      "Vision": "Geo",
+      "Weapon": "Claymore",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Resistance\"",
+          "Guide to \"Resistance\"",
+          "Philosophies of \"Resistance\""
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ],
+        "BossMat": "Dvalin's Claw"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Prithiva Topaz Sliver",
+          "Prithiva Topaz Fragment",
+          "Prithiva Topaz Chunk",
+          "Prithiva Topaz Gemstone",
+          "Basalt Pillar"
+        ],
+        "LocalMat": "Valberry",
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Qiqi": {
+      "Name": "Qiqi",
+      "Vision": "Cryo",
+      "Weapon": "Sword",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Prosperity\"",
+          "Guide to \"Prosperity\"",
+          "Philosophies of \"Prosperity\""
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ],
+        "BossMat": "Tail of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Shivada Jade Sliver",
+          "Shivada Jade Fragment",
+          "Shivada Jade Chunk",
+          "Shivada Jade Gemstone",
+          "Hoarfrost Core"
+        ],
+        "LocalMat": "Violetgrass",
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Razor": {
+      "Name": "Razor",
+      "Vision": "Electro",
+      "Weapon": "Claymore",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Resistance\"",
+          "Guide to \"Resistance\"",
+          "Philosophies of \"Resistance\""
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ],
+        "BossMat": "Dvalin's Claw"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Vajrada Amethyst Sliver",
+          "Vajrada Amethyst Fragment",
+          "Vajrada Amethyst Chunk",
+          "Vajrada Amethyst Gemstone",
+          "Lightning Prism"
+        ],
+        "LocalMat": "Wolfhook",
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Sucrose": {
+      "Name": "Sucrose",
+      "Vision": "Anemo",
+      "Weapon": "Catalyst",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Freedom\"",
+          "Guide to \"Freedom\"",
+          "Philosophies of \"Freedom\""
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ],
+        "BossMat": "Spirit Locket of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Vayuda Turquoise Sliver",
+          "Vayuda Turquoise Fragment",
+          "Vayuda Turquoise Chunk",
+          "Vayuda Turquoise Gemstone",
+          "Hurricane Seed"
+        ],
+        "LocalMat": "Windwheel Aster",
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Tartaglia": {
+      "Name": "Tartaglia",
+      "Vision": "Hydro",
+      "Weapon": "Bow",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Freedom\"",
+          "Guide to \"Freedom\"",
+          "Philosophies of \"Freedom\""
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ],
+        "BossMat": "Shard of a Foul Legacy"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Varunada Lazurite Sliver",
+          "Varunada Lazurite Fragment",
+          "Varunada Lazurite Chunk",
+          "Varunada Lazurite Gemstone",
+          "Cleansing Heart"
+        ],
+        "LocalMat": "Starconch",
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Traveler": {
+      "Name": "Traveler",
+      "Vision": "Adaptive",
+      "Weapon": "Sword",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "",
+          "",
+          ""
+        ],
+        "CommonMats": [
+          "",
+          "",
+          ""
+        ],
+        "BossMat": ""
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Brilliant Diamond",
+          "Unknown"
+        ],
+        "LocalMat": "Windwheel Aster",
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Venti": {
+      "Name": "Venti",
+      "Vision": "Anemo",
+      "Weapon": "Bow",
+      "Rarity": 5,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Ballad\"",
+          "Guide to \"Ballad\"",
+          "Philosophies of \"Ballad\""
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ],
+        "BossMat": "Tail of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Vayuda Turquoise Sliver",
+          "Vayuda Turquoise Fragment",
+          "Vayuda Turquoise Chunk",
+          "Vayuda Turquoise Gemstone",
+          "Hurricane Seed"
+        ],
+        "LocalMat": "Cecilia",
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Xiangling": {
+      "Name": "Xiangling",
+      "Vision": "Pyro",
+      "Weapon": "Polearm",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Diligence\"",
+          "Guide to \"Diligence\"",
+          "Philosophies of \"Diligence\""
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ],
+        "BossMat": "Dvalin's Claw"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Agnidus Agate Sliver",
+          "Agnidus Agate Fragment",
+          "Agnidus Agate Chunk",
+          "Agnidus Agate Gemstone",
+          "Everflame Seed"
+        ],
+        "LocalMat": "Jueyun Chili",
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Xingqiu": {
+      "Name": "Xingqiu",
+      "Vision": "Hydro",
+      "Weapon": "Sword",
+      "Rarity": 4,
+      "TalentMats": {
+        "Mats": [
+          "Teachings of \"Gold\"",
+          "Guide to \"Gold\"",
+          "Philosophies of \"Gold\""
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ],
+        "BossMat": "Tail of Boreas"
+      },
+      "AscensionMats": {
+        "ElementalMats": [
+          "Varunada Lazurite Sliver",
+          "Varunada Lazurite Fragment",
+          "Varunada Lazurite Chunk",
+          "Varunada Lazurite Gemstone",
+          "Cleansing Heart"
+        ],
+        "LocalMat": "Silk Flower",
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    }
+  },
+  "Weapons": {
+    "Alley_Hunter": {
+      "Name": "Alley_Hunter",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Amber_Catalyst": {
+      "Name": "Amber_Catalyst",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Amos'_Bow": {
+      "Name": "Amos'_Bow",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Apprentice's_Notes": {
+      "Name": "Apprentice's_Notes",
+      "Rarity": 1,
+      "AscensionMats": {
+        "Rarity": 1,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Aquila_Favonia": {
+      "Name": "Aquila_Favonia",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Beginner's_Protector": {
+      "Name": "Beginner's_Protector",
+      "Rarity": 1,
+      "AscensionMats": {
+        "Rarity": 1,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Black_Tassel": {
+      "Name": "Black_Tassel",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Blackcliff_Amulet": {
+      "Name": "Blackcliff_Amulet",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Blackcliff_Longsword": {
+      "Name": "Blackcliff_Longsword",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Blackcliff_Pole": {
+      "Name": "Blackcliff_Pole",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Blackcliff_Slasher": {
+      "Name": "Blackcliff_Slasher",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Blackcliff_Warbow": {
+      "Name": "Blackcliff_Warbow",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Bloodtainted_Greatsword": {
+      "Name": "Bloodtainted_Greatsword",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branches",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Compound_Bow": {
+      "Name": "Compound_Bow",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Cool_Steel": {
+      "Name": "Cool_Steel",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Copper Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Crescent_Pike": {
+      "Name": "Crescent_Pike",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Dark_Iron_Sword": {
+      "Name": "Dark_Iron_Sword",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Deathmatch": {
+      "Name": "Deathmatch",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Debate_Club": {
+      "Name": "Debate_Club",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Dragon's_Bane": {
+      "Name": "Dragon's_Bane",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Dull_Blade": {
+      "Name": "Dull_Blade",
+      "Rarity": 1,
+      "AscensionMats": {
+        "Rarity": 1,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Ebony_Bow": {
+      "Name": "Ebony_Bow",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Emerald_Orb": {
+      "Name": "Emerald_Orb",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Eye_of_Perception": {
+      "Name": "Eye_of_Perception",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Favonius_Codex": {
+      "Name": "Favonius_Codex",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Favonius_Greatsword": {
+      "Name": "Favonius_Greatsword",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Favonius_Lance": {
+      "Name": "Favonius_Lance",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Favonius_Sword": {
+      "Name": "Favonius_Sword",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Favonius_Warbow": {
+      "Name": "Favonius_Warbow",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Ferrous_Shadow": {
+      "Name": "Ferrous_Shadow",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Fillet_Blade": {
+      "Name": "Fillet_Blade",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Halberd": {
+      "Name": "Halberd",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Harbinger_of_Dawn": {
+      "Name": "Harbinger_of_Dawn",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Hunter's_Bow": {
+      "Name": "Hunter's_Bow",
+      "Rarity": 1,
+      "AscensionMats": {
+        "Rarity": 1,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Iron_Point": {
+      "Name": "Iron_Point",
+      "Rarity": 2,
+      "AscensionMats": {
+        "Rarity": 2,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Iron_Sting": {
+      "Name": "Iron_Sting",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Kunwu's_Iris_Rift": {
+      "Name": "Kunwu's_Iris_Rift",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Lion's_Roar": {
+      "Name": "Lion's_Roar",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Lithic_Blade": {
+      "Name": "Lithic_Blade",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Lithic_Spear": {
+      "Name": "Lithic_Spear",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Lost_Prayer_to_the_Sacred_Winds": {
+      "Name": "Lost_Prayer_to_the_Sacred_Winds",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Magic_Guide": {
+      "Name": "Magic_Guide",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Mappa_Mare": {
+      "Name": "Mappa_Mare",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Memory_of_Dust": {
+      "Name": "Memory_of_Dust",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Messenger": {
+      "Name": "Messenger",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Old_Merc's_Pal": {
+      "Name": "Old_Merc's_Pal",
+      "Rarity": 2,
+      "AscensionMats": {
+        "Rarity": 2,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Otherworldly_Story": {
+      "Name": "Otherworldly_Story",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Pocket_Grimoire": {
+      "Name": "Pocket_Grimoire",
+      "Rarity": 2,
+      "AscensionMats": {
+        "Rarity": 2,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Primordial_Jade_Winged-Spear": {
+      "Name": "Primordial_Jade_Winged-Spear",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Prototype_Aminus": {
+      "Name": "Prototype_Aminus",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Prototype_Crescent": {
+      "Name": "Prototype_Crescent",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Prototype_Grudge": {
+      "Name": "Prototype_Grudge",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Prototype_Malice": {
+      "Name": "Prototype_Malice",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Prototype_Rancour": {
+      "Name": "Prototype_Rancour",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Flower Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Quartz": {
+      "Name": "Quartz",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Rainslasher": {
+      "Name": "Rainslasher",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Raven_Bow": {
+      "Name": "Raven_Bow",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Recurve_Bow": {
+      "Name": "Recurve_Bow",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Royal_Bow": {
+      "Name": "Royal_Bow",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Royal_Greatsword": {
+      "Name": "Royal_Greatsword",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Royal_Grimoire": {
+      "Name": "Royal_Grimoire",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Royal_Longsword": {
+      "Name": "Royal_Longsword",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "Rust": {
+      "Name": "Rust",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Sacrificial_Bow": {
+      "Name": "Sacrificial_Bow",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Sacrificial_Fragments": {
+      "Name": "Sacrificial_Fragments",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Sacrificial_Greatsword": {
+      "Name": "Sacrificial_Greatsword",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Sacrificial_Sword": {
+      "Name": "Sacrificial_Sword",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Seasoned_Hunter's_Bow": {
+      "Name": "Seasoned_Hunter's_Bow",
+      "Rarity": 2,
+      "AscensionMats": {
+        "Rarity": 2,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Serpent_Spine": {
+      "Name": "Serpent_Spine",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Sharpshooter's_Oath": {
+      "Name": "Sharpshooter's_Oath",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Silver_Sword": {
+      "Name": "Silver_Sword",
+      "Rarity": 2,
+      "AscensionMats": {
+        "Rarity": 2,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Skyrider_Greatsword": {
+      "Name": "Skyrider_Greatsword",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Skyrider_Sword": {
+      "Name": "Skyrider_Sword",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Grain of Aerosiderite",
+          "Piece of Aerosiderite",
+          "Bit of Aerosiderite",
+          "Chunk of Aerosiderite"
+        ],
+        "BossMats": [
+          "Fragile Bone Shard",
+          "Sturdy Bone Shard",
+          "Fossilized Bone Shard"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Skyward_Atlas": {
+      "Name": "Skyward_Atlas",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Skyward_Blade": {
+      "Name": "Skyward_Blade",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Skyward_Harp": {
+      "Name": "Skyward_Harp",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "Skyward_Pride": {
+      "Name": "Skyward_Pride",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "Skyward_Spine": {
+      "Name": "Skyward_Spine",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Slingshot": {
+      "Name": "Slingshot",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Solar_Pearl": {
+      "Name": "Solar_Pearl",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "Sword_of_Descension": {
+      "Name": "Sword_of_Descension",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "The_Alley_Flash": {
+      "Name": "The_Alley_Flash",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ],
+        "CommonMats": [
+          "Unknown",
+          "Unknown",
+          "Unknown"
+        ]
+      }
+    },
+    "The_Bell": {
+      "Name": "The_Bell",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Unknown"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Whopperflower Nectar",
+          "Shimmering Nectar",
+          "Energy Nectar"
+        ]
+      }
+    },
+    "The_Black_Sword": {
+      "Name": "The_Black_Sword",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "The_Flute": {
+      "Name": "The_Flute",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "The_Stringless": {
+      "Name": "The_Stringless",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "The_Viridescent_Hunt": {
+      "Name": "The_Viridescent_Hunt",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Tile of Decarabian's Tower",
+          "Debris of Decarabian's City",
+          "Fragment of Decarabian's Epic",
+          "Scattered Piece of Decarabian's Dream"
+        ],
+        "BossMats": [
+          "Heavy Horn",
+          "Black Bronze Horn",
+          "Black Crystal Horn"
+        ],
+        "CommonMats": [
+          "Firm Arrowhead",
+          "Sharp Arrowhead",
+          "Weathered Arrowhead"
+        ]
+      }
+    },
+    "The_Widsith": {
+      "Name": "The_Widsith",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Damaged Mask",
+          "Stained Mask",
+          "Ominous Mask"
+        ]
+      }
+    },
+    "Thrilling_Tales_of_Dragon_Slayers": {
+      "Name": "Thrilling_Tales_of_Dragon_Slayers",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Seal Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Traveler's_Handy_Sword": {
+      "Name": "Traveler's_Handy_Sword",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Twin_Nephrite": {
+      "Name": "Twin_Nephrite",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Mist Veiled Lead Elixir",
+          "Mist Veiled Mercury Elixir",
+          "Mist Veiled Gold Elixir",
+          "Mist Veiled Primo Elixir"
+        ],
+        "BossMats": [
+          "Mist Grass Pollen",
+          "Mist Grass",
+          "Mist Grass Wick"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Waster_Greatsword": {
+      "Name": "Waster_Greatsword",
+      "Rarity": 1,
+      "AscensionMats": {
+        "Rarity": 1,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "White_Iron_Greatsword": {
+      "Name": "White_Iron_Greatsword",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Slime Condensate",
+          "Slime Secretions",
+          "Slime Concentrate"
+        ]
+      }
+    },
+    "White_Tassel": {
+      "Name": "White_Tassel",
+      "Rarity": 3,
+      "AscensionMats": {
+        "Rarity": 3,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Recruit's Insignia",
+          "Sergeant's Insignia",
+          "Lieutenant's Insignia"
+        ]
+      }
+    },
+    "Whiteblind": {
+      "Name": "Whiteblind",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Luminous Sands from Guyun",
+          "Lustrous Stone from Guyun",
+          "Relic from Guyun",
+          "Divine Body from Guyun"
+        ],
+        "BossMats": [
+          "Hunter's Sacrificial Knife",
+          "Agent's Sacrificial Knife",
+          "Inspector's Sacrificial Knife"
+        ],
+        "CommonMats": [
+          "Treasure Hoarder Insignia",
+          "Silver Raven Insignia",
+          "Golden Raven Insignia"
+        ]
+      }
+    },
+    "Wine_and_Song": {
+      "Name": "Wine_and_Song",
+      "Rarity": 4,
+      "AscensionMats": {
+        "Rarity": 4,
+        "AscendMats": [
+          "Boreal Wolf's Milk Tooth",
+          "Boreal Wolf's Cracked Tooth",
+          "Boreal Wolf's Broken Fang",
+          "Boreal Wolf's Nostalgia"
+        ],
+        "BossMats": [
+          "Dead Ley Line Branch",
+          "Dead Ley Line Leaves",
+          "Ley Line Sprouts"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    },
+    "Wolf's_Gravestone": {
+      "Name": "Wolf's_Gravestone",
+      "Rarity": 5,
+      "AscensionMats": {
+        "Rarity": 5,
+        "AscendMats": [
+          "Fetters of the Dandelion Gladiator",
+          "Chains of the Dandelion Gladiator",
+          "Shackles of the Dandelion Gladiator",
+          "Dream of the Dandelion Gladiator"
+        ],
+        "BossMats": [
+          "Chaos Device",
+          "Chaos Circuit",
+          "Chaos Core"
+        ],
+        "CommonMats": [
+          "Divining Scroll",
+          "Sealed Scroll",
+          "Forbidden Curse Scroll"
+        ]
+      }
+    }
+  }
+}
