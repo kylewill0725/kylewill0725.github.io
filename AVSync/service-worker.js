@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.cf47cf1cddc1597966eb03e74a0a39fa.js"
+  "precache-manifest.e16c5b809873701243a86fb4ae119cd7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "av-sync"});
